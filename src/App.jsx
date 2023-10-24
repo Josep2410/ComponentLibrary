@@ -1,12 +1,14 @@
 import React from 'react'
+import DisplayBadges from './components/DisplayBadges'
+import DisplayBanners from './components/DisplayBanners'
 import './App.css'
 
 function App() {
 
   return (
     <>
-      <h1>Something</h1>
-      <h2>soemthign else</h2>
+     <DisplayBadges />
+      <DisplayBanners/>
     </>
   )
 }

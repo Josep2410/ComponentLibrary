@@ -1,0 +1,102 @@
+h1{
+ 
+  font-size: 44.1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 63px; /* 142.857% */
+  font-family: 'Permanent Marker', cursive;
+  margin: 0;
+}
+
+section{
+  background-color: rgb(201, 201, 201);
+  padding:30px;
+  height: 30vh;
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+}
+
+.badge{
+  width: 67px;
+  height: 24px;
+  display: inline-flex;
+  padding: 2px 12px;
+  justify-content: center;
+  align-items: center;
+  background: #F3F4F6;
+  font-family: 'Sometype Mono', monospace;
+}
+
+
+
+.square{
+  border-radius: 4px;
+}
+
+.pill{
+  border-radius: 12px;
+}
+
+.grey{
+  color : #1F2937;
+  background: #F3F4F6;
+  }
+
+.red{
+  color : #991B1B;
+  background: #FEE2E2;
+}
+
+.yellow{
+  color: #92400E;
+  background: #FEF3C7;
+}
+
+.green{
+  color: #065F46;
+  background:#D1FAE5;
+}
+
+.blue{
+  color: #1E40AF;
+  background: #DBEAFE;
+}
+
+.indigo{
+  color: #3730A3;
+  background: #E0E7FF;
+}
+
+.purple{
+  color: #5B21B6;
+  background: #EDE9FE;
+}
+
+.pink{
+  color: #9D174D;
+  background: #FCE7F3;
+}
+
+.oneLiner{
+  width: 90%;
+  height: 30%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title{
+  color:#5E5D5D;
+  width: 10%;
+  font-family: 'Permanent Marker', cursive;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.5rem;
+}
+.box{
+  width: 83%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: auto;
+}
