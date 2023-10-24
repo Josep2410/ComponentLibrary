@@ -11,7 +11,7 @@ h1{
 section{
   background-color: rgb(201, 201, 201);
   padding:30px;
-  height: 30vh;
+  height: auto;
   display: flex;
   flex-direction:  column;
   align-items: center;
@@ -79,24 +79,19 @@ section{
 }
 
 .oneLiner{
-  width: 90%;
-  height: 30%;
+  width: 70%;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
-.title{
-  color:#5E5D5D;
-  width: 10%;
+
+.label{
   font-family: 'Permanent Marker', cursive;
+  min-width: 60px;
   display: flex;
-  justify-content: flex-end;
-  font-size: 1.5rem;
+  justify-content: end;
 }
 .box{
-  width: 83%;
   display: flex;
-  justify-content: space-between;
+ 
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  height: auto;
 }

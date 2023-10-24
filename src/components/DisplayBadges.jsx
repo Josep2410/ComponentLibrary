@@ -23,16 +23,15 @@ export default function DisplayBadges(){
   return(
     <section className='container'>
       <h1 >Badges</h1>
-      
-      <div className='oneLiner'>
-        <div className='title'><span>Square</span></div>
-        <div className='box'>{squareBadges}</div>
+      <div className='row oneLiner'>
+        <div className='col-2 label' ><span>Squares</span></div>
+        <div className='col-10 box'>{squareBadges}</div>
       </div>
-      <div className='oneLiner'>
-        <div className='title'><span>Pill</span></div>
-        <div className='box'>{pillBadges}</div>
+      <br />
+      <div className='row oneLiner'>
+        <div className='col-2 label' ><span>Pill</span></div>
+        <div className='col-10 box'>{pillBadges}</div>
       </div>
-      
     </section>
   )
 }
