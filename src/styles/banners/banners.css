@@ -1,0 +1,33 @@
+.columns{
+  width: 50%;
+
+}
+
+.bannerRow{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  min-width: 400px;
+}
+
+.banner{
+  height: auto;
+  padding: 5px 20px;
+  border-radius: 5px;
+  min-width: 100px;
+}
+
+.single-line{
+  align-self: flex-end  ;
+  margin-bottom: 10px;
+}
+
+.banner h6{
+  font-size: 1rem;
+  overflow-wrap: break-word;
+}
+
+.banner p{
+  font-size: .8rem;
+  overflow-wrap: break-word;
+}

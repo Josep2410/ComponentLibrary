@@ -22,7 +22,7 @@ export default function DisplayBadges(){
 
   return(
     <section className='container'>
-      <h1 >Badges</h1>
+      <h1 className='permaMarker'>Badges</h1>
       <div className='row oneLiner'>
         <div className='col-2 label' ><span>Squares</span></div>
         <div className='col-10 box'>{squareBadges}</div>
