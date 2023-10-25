@@ -11,7 +11,7 @@ export default function DisplayBanners(){
         <div className='col-7 permaMarker'>Multi-Line</div>
         <div className='col-5 permaMarker'>Single Line</div>
       </div>
-       {/* ////////////////////////////////////////// */}
+       {/* -------------------Success Banner------------------- */}
       <br />
       <div className='row bannerRow'>
         <div className='permaMarker col-2'>Success</div>
@@ -33,7 +33,7 @@ export default function DisplayBanners(){
           </Banner>
         </div>
       </div>
-      {/* ////////////////////////////////////////// */}
+      {/* -------------------Warning Banner-------------------  */}
       <br />
       <div className='row bannerRow'>
         <div className='permaMarker col-2'>Warning</div>
@@ -55,7 +55,7 @@ export default function DisplayBanners(){
           </Banner>
         </div>
       </div>
-       {/* ////////////////////////////////////////// */}
+       {/* -------------------Warning Banner------------------- */}
       <br />
       <div className='row bannerRow'>
         <div className='permaMarker col-2'>Error</div>
@@ -77,7 +77,7 @@ export default function DisplayBanners(){
           </Banner>
         </div>
       </div>
-       {/* ////////////////////////////////////////// */}
+       {/* -------------------Neutral Banner------------------  */}
       <br />
       <div className='row bannerRow'>
         <div className='permaMarker col-2'>Neutral</div>
