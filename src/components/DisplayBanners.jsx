@@ -4,8 +4,6 @@ import '../styles/banners/banners.css'
 
 export default function DisplayBanners(){
 
-  //const input = [{title : '', text: '' , style:'', icon:icon }]
-
   return (
     <section className='container'>
       <h1 className='permaMarker'>Banners</h1>
