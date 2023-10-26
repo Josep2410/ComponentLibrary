@@ -1,9 +1,14 @@
 .test-section{
   padding: 70px 0;
 }
+.test-section > main{
+  display: flex;
+  flex-direction:  column;
+  align-items: center;
+}
 .testimonial-container{
   width: 60%;
-  height: 200px;
+  height: 30vh;
   position: relative;
   border-radius: 5px;
 }
@@ -14,25 +19,25 @@
 }
 
 .img-container{
-  height: 250px;
-  width: 175px;
+  height: 125%;
+  width: 27%;
   position: absolute;
   border-radius: 12px;
   box-shadow: 0px 10px 10px -5px rgba(0, 0, 0, 0.04), 0px 20px 25px -5px rgba(0, 0, 0, 0.10);
-  top: -25px;
-  left: 40px;
+  top: -15%;
+  left: 5%;
   object-fit: cover;;
 }
 
 .info{
-  width: 350px;
+  width: 50%;
   height: 75%;
   position: absolute;
-  right: 95px;
-  top: 30px;
+  right: 11%;
+  top: 12%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
   color: #FFFFFF;
 }
 
@@ -41,18 +46,17 @@
 }
 
 .info .paragraph{
-  font-size: .80rem;
+  font-size: 1.05vw;
 }
 
 .info .name{
-  font-size: .65rem;
+  font-size: .75vw;
   font-style: normal;
   font-weight: 700;
-
 }
 
 .info .role{
-font-size: .6rem;
+font-size: .65vw;
 font-style: normal;
 font-weight: 500;
 }
@@ -80,11 +84,92 @@ font-weight: 500;
 .withoutImage-box p{
   text-align: center;
   width: 55%;
-  font-size: .65rem;
+  font-size: .9vw;
   margin: 0;
 }
 
 .withoutImage-box .role{
-  font-size: .63rem;
+  font-size: .85vw;
+}
 
+
+@media screen and (max-width: 1000px){
+  .info .paragraph{
+    font-size: 1.25vw;
+  }
+  .info .name{
+    font-size: 1vw;
+  }
+  
+  .info .role{
+  font-size: .80vw; 
+  }
+
+  .withoutImage-box p{
+    font-size: 1.1vw;
+  }
+  
+  .withoutImage-box .role{
+    font-size: 1vw;
+  }
+  
+}
+
+@media screen and (max-width: 600px){
+  .test-section > main{
+    display: flex;
+    flex-direction:  row;
+    justify-content: space-evenly;
+  }
+  .testimonial-container{
+    width: 40%;
+   height: 40vh;
+   position: static;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+  }
+  .img-container{
+    height: 60%;
+    width: 80%;
+    position: static;
+    object-fit: fill;
+  }
+  
+  .info{
+    width: 80%;
+    height: 30%;
+    position: static;
+    justify-content: space-evenly;
+  }
+  
+  .quoteIcon, .workLogo{
+    display: none;
+  }
+  .info .paragraph{
+    font-size: 1.6vw;
+  }
+  
+  .info .name{
+    font-size: 1.45vw;
+    
+  }
+  
+  .info .role{
+    font-size: 1.4vw;
+  }
+  .withoutImage-box{
+    justify-content: space-evenly;
+    width: 80%;
+    height: 80%;
+  }
+  .withoutImage-box p{
+    font-size: 1.75vw;
+  }
+  
+  .withoutImage-box .role{
+    font-size: 1.25vw;
+  }
 }

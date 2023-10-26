@@ -9,7 +9,8 @@ export default function DisplayTestimonials(){
       <h1 className='permaMarker'>Testimonials</h1>
       <br />
       <br />
-        <TWI>
+      <main >
+      <TWI>
           <img src="https://www.andygreenwell.com/wp-content/uploads/2022/06/business-office-headshots_112158.jpg" alt="" className='img-container'/>
           <div className='info'>
             {startingQuotesIcon}
@@ -30,6 +31,8 @@ export default function DisplayTestimonials(){
           <p className='role'><strong>Jason Brasonwork </strong>/ Lead Technician</p>
           </div>
         </TWOI>
+      </main>
+        
     </section>
   )
 }
